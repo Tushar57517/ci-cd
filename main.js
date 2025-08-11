@@ -2,4 +2,8 @@ function greet() {
   return "Hello, World";
 }
 
-module.exports = greet
+function goodBye() {
+  return "good bye";
+}
+
+module.exports = { greet, goodBye };
